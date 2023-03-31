@@ -1,12 +1,19 @@
-<!doctype html>
-<!main>
+<!DOCTYPE html>
+
 <html>
   <head>
-    <link rel="stylesheet" href="lib/style.css">
+    <link rel="stylesheet" href="lib/style.css" />
     <script src="lib/script.js"></script>
   </head>
 
-  <body>
+  <html>
+    <head>
+      <link rel="stylesheet" href="lib/style.css" />
+      <script src="lib/script.js"></script>
+    </head>
+
+    <body>
+    <div class="container">
     <div class="main">
     <h1>Python
     </h1>
@@ -19,34 +26,43 @@
         <li><a href="https://sites.google.com/cps.edu/index/py/pyprint">print()</a></li>
         <li><a href="https://sites.google.com/cps.edu/index/py/pyif">if statement</a></li>
     </div>
+    </div>
   </body>
-  <style>
-    h1{
-  font-family: 'Roboto', sans-serif;
-}
-p{
-  font-family: 'Roboto', sans-serif;
-}
-.main{
-  background-color: rgb(12,124,236);
-  padding: 10px;
-  border-radius: 25px;
-  border-style: solid;
-  border-color: rgb(11, 109, 207);
-  font-family: 'Roboto', sans-serif;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-.search{
-  border-radius: 30px;
-  border-style: solid;
-  border-color: rgb(231, 231, 231);
-  padding: 5px;
-  width: 400px;
-  margin-bottom: 5px;
-}
-a{
-  color: blue;
-}
-  </style>
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+      }
+
+      .container {
+        background-color: rgb(12, 124, 236);
+        padding: 10px;
+      }
+
+      .main {
+        background-color: white;
+        border-radius: 25px;
+        border: 2px solid rgb(11, 109, 207);
+        margin-bottom: 20px;
+        padding: 20px;
+      }
+
+      h1 {
+        margin-top: 0;
+      }
+
+      ul {
+        margin-top: 0;
+      }
+
+      a {
+        color: blue;
+      }
+      code {
+        background-color: rgba(2, 2, 2, 0.1);
+        border-radius: 4px;
+        padding: 2px;
+      }
+    </style>
+  </html>
 </html>
